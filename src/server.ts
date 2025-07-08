@@ -1,6 +1,6 @@
 import { fastify } from "fastify"
 import {
-  serialisezCompiler,
+  serializerCompiler,
   validatorCompiler,
   ZodTypeProvider,
 } from "fastify-type-provide-zod"
