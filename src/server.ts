@@ -1,8 +1,8 @@
 import { fastify } from "fastify"
 import {
-  serializerCompiler,
-  validatorCompiler,
-  ZodTypeProvider,
+  type serializerCompiler,
+  type validatorCompiler,
+  type ZodTypeProvider,
 } from "fastify-type-provider-zod"
 
 import { fastifyCors } from "@fastify/cors"
