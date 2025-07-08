@@ -17,3 +17,7 @@ app.register(fastifyCors, {
 
 app.setSerializerCompiler(serializerCompiler)
 app.setValidatorCompiler(validatorCompiler)
+
+app.listen({ port:3333}).then(() => {
+   console.log('HTTP server Running!') //then p quando terminar de rodar notificar
+}) //aqui passamos a porta que nossa aplicação vai rodar
