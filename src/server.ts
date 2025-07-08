@@ -20,7 +20,7 @@ app.setSerializerCompiler(serializerCompiler)
 app.setValidatorCompiler(validatorCompiler)
 
 app.get('/health', () => {
-   return 'OK' //todo servidor back-end acaba tendo essa rota
+   return 'OK' //todo servidor back-end acaba tendo essa rota para ver se o servidor está rodando
 })
 
 app.listen({ port: env.PORT}).then(() => {
